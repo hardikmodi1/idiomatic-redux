@@ -1,0 +1,48 @@
+.listContainer {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.collection {
+  width: 100%;
+  padding: 0px;
+  margin: auto;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+.collection-item {
+  text-align: left;
+  background-color: #fff;
+  line-height: 1.5rem;
+  padding: 10px 20px;
+  margin: 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.collection-item {
+  background: #39bdc8;
+}
+.collection-item:nth-child(odd) {
+  background: #59d4e8;
+}
+
+.margin-right {
+  margin-right: 10px;
+}
+
+.center {
+  margin: auto;
+}
+
+.todoContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.remove {
+  cursor: pointer;
+  color: red;
+}

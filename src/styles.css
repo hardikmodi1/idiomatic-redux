@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  background-image: url("./images/photo-1559251606-c623743a6d76.jpg");
+  background-attachment: fixed;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100%;
+  padding-top: 15px;
+}
+
+.clear {
+  margin-left: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 10px auto;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5), 0 25px 50px 0 rgba(0, 0, 0, 0.2);
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}

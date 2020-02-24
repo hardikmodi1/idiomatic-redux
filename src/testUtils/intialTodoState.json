@@ -1,0 +1,25 @@
+{
+  "byId": {
+    "SFt6sD8T": {
+      "todo": "hardik",
+      "id": "SFt6sD8T",
+      "completed": false,
+      "active": false
+    },
+    "FPvmJ3Yv": {
+      "todo": "modi",
+      "id": "FPvmJ3Yv",
+      "completed": true,
+      "active": false
+    },
+    "a7X07Ep4": {
+      "todo": "dixitkumar",
+      "id": "a7X07Ep4",
+      "completed": true,
+      "active": false
+    }
+  },
+  "allIds": ["SFt6sD8T", "FPvmJ3Yv", "a7X07Ep4"],
+  "activeIds": ["SFt6sD8T"],
+  "completedIds": ["FPvmJ3Yv", "a7X07Ep4"]
+}
